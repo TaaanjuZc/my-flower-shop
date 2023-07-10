@@ -1,0 +1,28 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+/* This is the header section */
+
+#header {
+  width: 1920px;
+  height: 850px;
+  background: rgba(229, 84, 115, 0.10);
+}
+.ban-main {
+  display: flex;
+}
+
+.ban-title {
+  width: 708px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.ban-dis {
+  color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 15px;
+font-weight: 300;
+}
