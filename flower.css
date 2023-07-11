@@ -21,8 +21,6 @@ body {
 
 .ban-txt {
   width: 760px;
-  
-
 }
 
 .ban-title {
@@ -59,6 +57,10 @@ body {
 }
 
 /* This is the main part */
+
+.feature-flower {
+  height: 850px;
+}
 .feature-txt {
   text-align: center;
   margin-top: 200px;
@@ -78,4 +80,74 @@ body {
   font-weight: 400;
   line-height: 30px;
   margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.feature-img {
+  text-align: center;
+  margin-top: 58px;
+  margin-bottom: 130px;
+}
+
+
+.fi-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.fi-2 {
+  background: rgba(5, 151, 160, 0.15);
+  align-items: center;
+}
+.fi-3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.fea-i {
+  border-radius: 300px 300px 0px 0px;
+  width: 464px;
+  height: 538px;
+  margin-right: 35px;
+}
+
+.flower-name {
+  display: flex;
+  margin-top: 15px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-align: center;
+  justify-content: space-around;
+  margin:auto;
+}
+
+.sale {
+  height: 620px;
+  background: rgba(229, 84, 115, 0.05);
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px 0px 150px;
+  display: felx;
+}
+
+.sale-script {
+
+}
+
+.sale-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.sell-dis {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.fi-4 {
+  align-items: center;
 }
