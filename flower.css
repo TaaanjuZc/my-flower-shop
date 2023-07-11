@@ -9,6 +9,7 @@ body {
 /* This is the header section */
 
 #header {
+  width: 1920px;
   height: 850px;
   background: rgba(229, 84, 115, 0.10);
 }
@@ -57,10 +58,7 @@ body {
 }
 
 /* This is the main part */
-
-.feature-flower {
-  height: 850px;
-}
+.feactures 
 .feature-txt {
   text-align: center;
   margin-top: 200px;
@@ -92,19 +90,26 @@ body {
 
 .fi-1 {
   background: rgba(167, 33, 98, 0.15);
+  align-items: center;
+  background-repeat: no-repeat;
 }
 .fi-2 {
   background: rgba(5, 151, 160, 0.15);
   align-items: center;
+  background-repeat: no-repeat;
+ 
 }
 .fi-3 {
   background: rgba(71, 125, 17, 0.15);
+  align-items: center;
+  background-repeat: no-repeat;
 }
 .fea-i {
   border-radius: 300px 300px 0px 0px;
   width: 464px;
   height: 538px;
   margin-right: 35px;
+  
 }
 
 .flower-name {
@@ -120,34 +125,93 @@ body {
 }
 
 .sale {
+  display: flex;
+  width: 1922px;
   height: 620px;
   background: rgba(229, 84, 115, 0.05);
   align-items: center;
-  justify-content: space-between;
-  padding: 30px 30px 0px 150px;
-  display: felx;
+  justify-content: space-around;
+  padding: 30px 44px 0px 122px;
+  margin-top: 200px;
 }
 
-.sale-script {
 
-}
 
 .sale-title {
   color: #272727;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 800;
   line-height: normal;
+  text-align: center;
+}
+.sale-title > span {
+  color: #E55473;
 }
 
+.sale-script {
+  text-align: center;
+  padding-top: 25px;
+}
 .sell-dis {
+  width: 594px;
   color: rgba(39, 39, 39, 0.60);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .fi-4 {
-  align-items: center;
+  padding-right: 70px;
 }
+
+/* collection section */
+
+/* Get The Latest Deals */
+
+.sec-deals{
+  width: 1440px;
+  height: 449px;
+  margin-top: 200px;
+  margin-left: 240px;
+  background: url('Flower Asset/Rectangle\ 9.png');
+}
+
+.deal-script {
+  padding: 158px 60px 0px 110px;
+  text-align: center;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.deal-dis {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.add-email {
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: white;
+  border: 0;
+}
+
+.add-email::placeholder {
+  opacity: .5s;
+  color: rgba(39, 39, 39, 0.60);
+  padding: 10px;
+  font-size: 18px;
+
+}
+
