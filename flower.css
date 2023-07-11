@@ -45,7 +45,6 @@ body {
   color: white;
   font-size: 19px;
   font-weight: 600;
-  gap: 10px;
   border: 1px solid #E55473;
   transition: .75s;
 }
@@ -161,6 +160,7 @@ body {
   padding-right: 70px;
 }
 
+
 /* collection section */
 
 .collec-ip {
@@ -193,6 +193,58 @@ body {
 .flr-1 {
   padding: 9px;
 }
+
+/* bonus section */
+.test-gift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  background: url('Flower Asset/bonus.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.gift-select{
+  display: inline-flex;
+  flex-direction: column;
+  width: 650px;
+  min-width: 500px;
+  max-width: 650px;
+  margin: auto;
+  padding: 110px;
+  border-radius: 10px;
+  background-color: rgba(252, 252, 252, 0.726);
+} 
+.gift-select > h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.gift-select > p {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.input-id {
+  
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #272727;
+  margin: 10px;
+}
+.input-id {
+  opacity: .5s;
+  color: rgba(39, 39, 39, 0.60);
+  padding: 20px;
+  font-size: 18px;
+}
+
+
 /* Get The Latest Deals */
 
 .sec-deals{
